@@ -1,0 +1,21 @@
+body{
+    height:100%;
+    width:100%;
+}
+.container{
+    height: 450px;
+    width: 100%;
+    padding: 40px 40px;
+    margin: 0 auto;
+
+    background-image: url(./welcomebgm.png);
+    background-size: 100%;
+    background-color: rgba(90, 90, 90, 0.8);
+    background-blend-mode: darken;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:lightgray;
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+}

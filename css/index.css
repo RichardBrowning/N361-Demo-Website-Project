@@ -1,0 +1,86 @@
+/*titile of the page*/
+header{
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding:0.5px;
+
+    background-size: 100%;
+    background-image: url("./headerbg.jpg");
+    background-color: rgba(116, 116, 116, 0.3);
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    
+    color: #acacac;/*font color*/
+}
+
+body{
+    background-image: url(./bg.jpg); 
+    background-size: 100%; 
+    background-color: rgba(0, 0, 0, 0.9); 
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+}
+/*only for below-header navigation bar*/
+#horizontal_bar{
+    width: 95%;
+    background-color: #af1919;
+    border-radius: 6px;
+    margin: 0px auto;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /*flexBox to centralise*/
+    display: flex;
+    justify-content: center;
+}
+
+/*This section is for horizontal menu below header*/
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+li{
+    float:left;
+    margin: auto;
+    padding: 0px 5px;
+}
+
+/*page basic elements*/
+.title{
+    font-family:'Dosis', sans-serif;
+    font-size: 88px;
+    opacity: 0.3;
+}
+.subtitle{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+    font-style: bold;
+}
+/*iframe page container*/
+#frame{
+    position: relative;
+    width: 98%;
+    height: 450px;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Link buttons style*/
+a:link,a:visited{
+    display:block;
+    color:#FFFFFF;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+}
+
+a:hover,a:active{
+    background-color:rgb(133, 32, 2);
+    border-radius: 6px;
+}

@@ -1,0 +1,51 @@
+li, li a{						/* Define the formatting for the links to the labs */
+	list-style: none;
+	text-align: center;
+	color: white;
+	border-radius: 3px;
+	padding: 2px;
+    margin: 2px
+}
+
+body {
+	background-color: #292929;	/*	Use the Color Picker to find the hex code of your favorite color
+									http://www.w3schools.com/tags/ref_colorpicker.asp */
+}
+
+#assignments{			/* Define the formatting for the <div id="asssignments"> box */
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	box-shadow: 0 2px 15px rgb(34, 34, 34);
+	min-height: 300px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: rgb(39, 39, 39);
+}
+#assignments ul {
+	float: left;
+	width: 300px;
+}
+
+.category{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: bold;
+	text-decoration-line: underline;
+	text-align: left;
+	font-size: large;
+	color: red
+}
+
+/*Link buttons style*/
+a:link,a:visited{
+    display:block;
+    color:#FFFFFF;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+}
+
+a:hover,a:active{
+    background-color:rgb(160, 17, 17);
+    border-radius: 6px;
+}

@@ -14,6 +14,19 @@ header{
     
     color: #acacac;/*font color*/
 }
+footer{
+    width: 95%;
+    background-color: #af1919;
+    border-radius: 6px;
+    margin: 10px auto;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /*flexBox to centralise*/
+    display: flex;
+    justify-content: center;
+    color: #acacac;/*font color*/
+}
 
 body{
     background-image: url(./bg.jpg); 
@@ -52,7 +65,7 @@ li{
 /*page basic elements*/
 .title{
     font-family:'Dosis', sans-serif;
-    font-size: 88px;
+    font-size: 55px;
     opacity: 0.3;
 }
 .subtitle{
@@ -69,6 +82,13 @@ li{
     border-radius: 10px;
     display: flex;
     justify-content: center;
+}
+
+button{
+    margin: 4px;
+}
+input{
+    width: 180px;
 }
 
 /*Link buttons style*/

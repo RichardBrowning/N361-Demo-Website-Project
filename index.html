@@ -1,8 +1,8 @@
 <!--**************************************
- TITLE: externalAlert.js						<----- Update the file name
- AUTHOR: Luxi Liao			<----- *Your* name should be here
- CREATE DATE: 21 August 2021
- PURPOSE: to trigger a test message when the parent HTML file is loaded into the browser		<----- Also update the purpose of the file
+ TITLE: index.html						<----- Update the file name
+ AUTHOR: Luxi Liao	(LL)		<----- *Your* name should be here
+ CREATE DATE: 15 September 2021
+ PURPOSE: 		<----- Also update the purpose of the file
  LAST MODIFIED ON: 22 August 2021
  LAST MODIFIED BY: Luxi Liao
  MODIFICATION HISTORY:
@@ -13,18 +13,17 @@
     <head>
         <meta content="text/html" http-equiv="Content-Type" charset=UTF-8>
         <title>
-            FBC Oneline Access Gateway
+            Administrative Department of Public Service Online Access Portal
         </title>
         <link rel="stylesheet" href="./css/index.css">
-
     </head>
     <body>
         <header>
             <h1 class="title">
-                FBC
+                Administrative Department of Public Service
             </h1>
             <p class="subtitle">
-                Oneline Access Gateway
+                Online Access Portal
             </p>
         </header>
         <div id = "horizontal_bar">
@@ -34,13 +33,22 @@
                 <li><a href="./Entries/entries.html" target="targetframe">Entries</a></li>
                 <!--li><a href="" target="targetframe">Review Page</a></li-->
                 <!--li><a href="" target="targetframe">Contact</a></li-->
-                <li><a href="./Login/login.html" target="targetframe">Login</a></li>
+                <li><a href="./Login/login.html" target="targetframe">Schedule Services</a></li>
+                <li><span><input placeholder="Search for Available Services"><button>Search</button></span></li>
             </ul>
         </div>
         <div>
             <iframe name="targetframe" id="frame" scrolling="no" frameborder="0" allowtransparency="true" src="./Welcome/welcome.html"></iframe>
         </div>
-        
+        <footer>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Lagal Info and Policy</a></li>
+                <li><a href="#">Schedule a Visit</a></li>
+                <li><a href="#">ADPS Leadership</a></li>
+            </ul>
+        </footer>
     </body>
 </html>
 
